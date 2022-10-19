@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KALKULATOR BIDANG"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <EditText
+        android:id="@+id/editPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Panjang/Alas/Diameter"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/editLebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lebar/Tinggi"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/btnPersegiPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Persegi Panjang" />
+
+    <Button
+        android:id="@+id/btnLingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Lingkaran" />
+
+    <Button
+        android:id="@+id/btnSegitiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Segitiga siku-siku" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Luas : "
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:id="@+id/txtLuas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Keliling : "
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:id="@+id/txtKeliling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keliling"
+        android:textSize="30sp" />
+
+</LinearLayout>
